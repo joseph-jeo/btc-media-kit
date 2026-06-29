@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<!--
+  ============================================================================
+  BETWEEN THE COVERS — MEDIA KIT (Advertising & Partnerships)
+  Market: General / Canada (local advertisers)   ·   Year: 2026
+  ----------------------------------------------------------------------------
+  COPY SOURCE: Verbatim positioning, audience, distribution, app/perks and
+  placement language extracted from the real BTC Canva decks:
+    - "Between the Covers Media Kit" (Canva DAHA1weCgyU)
+    - "BTC - Ad Rates & Opportunities" (Canva DAGoLWkM3f0)
+  Per client direction, hard pricing is shown as "Rate card on request".
+
+  IMAGE ASSETS:
+    REAL (Canva exports / owned BTC issues) — /assets/covers/
+      tracy-moore-june-2026-cover.png = FEATURED current issue. The June 2026
+        "Selves We Bury" Issue front cover, Tracy Moore. Cropped from the real
+        May/June print master (Canva DAHBfob1f9w / MayJune Magazine.pdf), right
+        page of the cover spread. Used in the hero and as the lead recent issue.
+      cover-appetite-front.png      = The Appetite Issue (Canva DAHMs9iZNd0), front cover
+      cover-septoct-DAGsVvxtG-k.png = Sept/Oct issue front cover
+    ATMOSPHERIC BACKGROUNDS (editorial, text-free, behind dark overlays) — /assets/backgrounds/
+      cover-bg.jpg / reader-portrait.jpg / closing-bg.jpg / distribution-bg.jpg
+    PROOF / ADVERTISERS — Real advertiser roster set in editorial type. Clean,
+      transparent logo files for these brands were not available in Canva, on
+      betweenthecoversmag.com, or in the issue/deck exports at usable resolution,
+      so per brand-safe policy the verified advertiser NAMES are shown (no fake
+      logos, no fake or empty boxes). 9baci's real mark lives in Canva (banner
+      stand DAG5M44j0gc) and can be dropped in if/when a clean file is provided.
+    APP SCREEN — built as an HTML/CSS device representation of the "Perks" tab.
+  ============================================================================
+-->
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Between the Covers — Media Kit</title>
+<meta name="description" content="Between the Covers — advertising & partnerships media kit. An unapologetic, emotionally intelligent lifestyle magazine for women and LGBTQ+ allies." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;1,6..96,400;1,6..96,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --ink:#16110d;          /* near-black warm */
+    --char:#241d17;         /* deep charcoal */
+    --cream:#f5efe3;        /* warm cream / paper */
+    --cream-2:#efe7d7;      /* deeper cream */
+    --beige:#e4d8c3;        /* soft beige */
+    --taupe:#a8987f;        /* muted taupe */
+    --taupe-ink:#6c6051;    /* taupe text */
+    --brass:#b08a52;        /* restrained gold/brass */
+    --brass-soft:#c9a877;
+    --wine:#7a2e3a;         /* sparing oxblood accent (echoes covers) */
+    --line:rgba(108,96,81,.28);
+    --maxw:1240px;
+    --gut:clamp(22px,5vw,88px);
+    --serif:"Bodoni Moda",Georgia,serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--cream);color:var(--ink);
+    font-family:var(--sans);font-weight:400;line-height:1.65;
+    font-size:clamp(15px,1.05vw,17px);
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+    overflow-x:hidden;
+  }
+  /* subtle paper grain overlay */
+  body::before{
+    content:"";position:fixed;inset:0;z-index:9999;pointer-events:none;opacity:.05;
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+    mix-blend-mode:multiply;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit;text-decoration:none}
+  h1,h2,h3{margin:0;font-family:var(--serif);font-weight:500;line-height:1.02;letter-spacing:-.01em}
+  p{margin:0 0 1.1em}
+
+  .wrap{max-width:var(--maxw);margin:0 auto;padding-left:var(--gut);padding-right:var(--gut)}
+  section{position:relative}
+
+  .eyebrow{
+    font-family:var(--sans);font-weight:600;font-size:.72rem;letter-spacing:.32em;
+    text-transform:uppercase;color:var(--brass);margin:0 0 1.3em;
+  }
+  .eyebrow.on-dark{color:var(--brass-soft)}
+  .lead{font-size:clamp(1.05rem,1.5vw,1.3rem);line-height:1.6;color:var(--taupe-ink)}
+  .serif-lead{font-family:var(--serif);font-weight:400;font-style:italic;
+    font-size:clamp(1.3rem,2.4vw,2rem);line-height:1.28;color:var(--char)}
+  .rule{height:1px;background:var(--line);border:0;margin:0}
+  .btn{
+    display:inline-flex;align-items:center;gap:.7em;font-family:var(--sans);
+    font-weight:600;font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;
+    padding:1.05em 2.1em;border:1px solid var(--ink);color:var(--ink);
+    background:transparent;transition:.35s ease;cursor:pointer;
+  }
+  .btn:hover{background:var(--ink);color:var(--cream)}
+  .btn.inv{border-color:var(--cream);color:var(--cream)}
+  .btn.inv:hover{background:var(--cream);color:var(--ink)}
+  .btn.solid{background:var(--ink);color:var(--cream)}
+  .btn.solid:hover{background:var(--brass);border-color:var(--brass);color:var(--ink)}
+
+  /* ============ HERO / COVER ============ */
+  .hero{
+    min-height:100svh;display:flex;flex-direction:column;justify-content:space-between;
+    color:var(--cream);position:relative;overflow:hidden;
+    padding:clamp(28px,4vw,52px) 0;
+  }
+  .hero-bg{position:absolute;inset:0;z-index:0}
+  .hero-bg img{width:100%;height:100%;object-fit:cover}
+  .hero-bg::after{
+    content:"";position:absolute;inset:0;
+    background:
+      linear-gradient(180deg,rgba(15,11,8,.62) 0%,rgba(15,11,8,.28) 32%,rgba(15,11,8,.42) 64%,rgba(15,11,8,.86) 100%),
+      radial-gradient(120% 90% at 18% 38%,rgba(15,11,8,.55),transparent 60%);
+  }
+  .hero .wrap{position:relative;z-index:2;width:100%}
+  .hero-top{display:flex;justify-content:space-between;align-items:center;
+    font-family:var(--sans);font-size:.72rem;letter-spacing:.28em;text-transform:uppercase;color:rgba(245,239,227,.82)}
+  .hero-top .dot{color:var(--brass-soft)}
+  .hero-mid{display:grid;grid-template-columns:1.55fr .9fr;gap:clamp(24px,4vw,60px);align-items:center;margin:auto 0}
+  .masthead{font-family:var(--serif);font-weight:500;line-height:.86;letter-spacing:-.02em;
+    font-size:clamp(3.3rem,11vw,9.2rem);text-transform:uppercase}
+  .masthead em{font-style:italic;font-weight:400}
+  .hero-sub{max-width:30ch;margin-top:1.4em;font-size:clamp(1rem,1.4vw,1.22rem);
+    line-height:1.5;color:rgba(245,239,227,.9)}
+  .hero-cover{position:relative;justify-self:end;width:min(330px,80%);
+    transform:rotate(2.2deg);filter:drop-shadow(0 40px 80px rgba(0,0,0,.6))}
+  .hero-cover img{width:100%;border:1px solid rgba(255,255,255,.08)}
+  .hero-cover-cap{position:absolute;left:0;right:0;top:-2.1em;text-align:center;
+    font-family:var(--sans);font-size:.62rem;letter-spacing:.24em;text-transform:uppercase;
+    color:rgba(245,239,227,.72)}
+  .hero-bottom{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;flex-wrap:wrap}
+  .hero-tag{font-family:var(--serif);font-style:italic;font-size:clamp(1.05rem,1.8vw,1.5rem);color:rgba(245,239,227,.92);max-width:24ch}
+  .scrollcue{font-family:var(--sans);font-size:.68rem;letter-spacing:.3em;text-transform:uppercase;color:rgba(245,239,227,.6);writing-mode:vertical-rl;}
+
+  /* ============ MANIFESTO ============ */
+  .manifesto{padding:clamp(80px,12vw,160px) 0;background:var(--cream);}
+  .manifesto h2{font-size:clamp(2.1rem,5.4vw,4.6rem);max-width:16ch;color:var(--ink)}
+  .manifesto h2 .b{color:var(--brass)}
+  .manifesto .grid{display:grid;grid-template-columns:1fr;gap:clamp(34px,4vw,60px);margin-top:clamp(40px,5vw,70px)}
+  .mani-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(26px,3vw,52px)}
+  .mani-cols p{color:var(--taupe-ink);margin:0}
+  .mani-cols h3{font-size:1.15rem;font-family:var(--sans);font-weight:600;letter-spacing:.02em;margin-bottom:.6em;color:var(--ink)}
+
+  /* ============ READER / AUDIENCE ============ */
+  .reader{background:var(--ink);color:var(--cream);padding:clamp(72px,10vw,150px) 0;}
+  .reader-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:clamp(30px,5vw,80px);align-items:center}
+  .reader-photo{position:relative}
+  .reader-photo img{width:100%;border:1px solid rgba(255,255,255,.08);box-shadow:0 50px 90px -40px rgba(0,0,0,.8)}
+  .reader-photo .cap{position:absolute;left:0;bottom:-2.4em;font-size:.68rem;letter-spacing:.2em;text-transform:uppercase;color:rgba(245,239,227,.45)}
+  .reader h2{font-size:clamp(2rem,4.6vw,3.8rem);color:var(--cream);margin-bottom:.5em}
+  .reader .serif-lead{color:var(--beige)}
+  .reader p{color:rgba(245,239,227,.78)}
+  .stat-row{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:clamp(34px,4vw,54px);
+    border-top:1px solid rgba(245,239,227,.16);padding-top:clamp(26px,3vw,40px)}
+  .stat .n{font-family:var(--serif);font-weight:500;font-size:clamp(2.1rem,4vw,3.2rem);line-height:1;color:var(--brass-soft)}
+  .stat .l{font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(245,239,227,.62);margin-top:.7em;line-height:1.35}
+
+  /* ============ REACH ============ */
+  .reach{padding:clamp(72px,10vw,150px) 0;background:var(--cream-2)}
+  .reach-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:clamp(40px,5vw,66px)}
+  .reach-head h2{font-size:clamp(2rem,4.6vw,3.8rem)}
+  .reach-nums{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+  .reach-nums .cell{background:var(--cream);padding:clamp(26px,3vw,42px) clamp(20px,2vw,30px)}
+  .reach-nums .n{font-family:var(--serif);font-weight:500;font-size:clamp(2.4rem,4.6vw,3.6rem);line-height:1;color:var(--ink)}
+  .reach-nums .l{font-size:.76rem;letter-spacing:.1em;text-transform:uppercase;color:var(--taupe-ink);margin-top:.8em;line-height:1.4}
+
+  /* ============ DISTRIBUTION ============ */
+  .dist{position:relative;color:var(--cream);padding:clamp(80px,11vw,160px) 0;overflow:hidden}
+  .dist-bg{position:absolute;inset:0;z-index:0}
+  .dist-bg img{width:100%;height:100%;object-fit:cover}
+  .dist-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(15,11,8,.92) 0%,rgba(15,11,8,.74) 46%,rgba(15,11,8,.5) 100%)}
+  .dist .wrap{position:relative;z-index:2}
+  .dist h2{font-size:clamp(2rem,4.6vw,3.8rem);color:var(--cream);max-width:14ch}
+  .dist-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(26px,3vw,46px);margin-top:clamp(40px,5vw,64px)}
+  .dist-col h3{font-family:var(--sans);font-weight:600;font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-soft);margin-bottom:1em;padding-bottom:1em;border-bottom:1px solid rgba(245,239,227,.18)}
+  .dist-col ul{list-style:none;margin:0;padding:0}
+  .dist-col li{padding:.42em 0;color:rgba(245,239,227,.84);font-size:.96rem}
+  .dist-col li::before{content:"—";color:var(--brass-soft);margin-right:.7em}
+
+  /* ============ APP / PERKS ============ */
+  .app{padding:clamp(72px,10vw,150px) 0;background:var(--cream)}
+  .app-grid{display:grid;grid-template-columns:1fr .92fr;gap:clamp(36px,5vw,80px);align-items:center}
+  .app h2{font-size:clamp(2rem,4.6vw,3.8rem);margin-bottom:.4em}
+  .perk-list{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:clamp(30px,3vw,44px)}
+  .perk{border-top:1px solid var(--line);padding-top:1em}
+  .perk h4{font-family:var(--sans);font-weight:600;font-size:.95rem;margin:0 0 .35em;color:var(--ink)}
+  .perk p{font-size:.88rem;color:var(--taupe-ink);margin:0}
+  /* phone mockup */
+  .phone-wrap{display:flex;justify-content:center}
+  .phone{width:min(300px,84%);aspect-ratio:1080/2240;background:#0e0c0b;border-radius:42px;
+    padding:13px;box-shadow:0 50px 90px -34px rgba(0,0,0,.55),0 0 0 1px rgba(0,0,0,.2);position:relative}
+  .phone .screen{width:100%;height:100%;border-radius:30px;overflow:hidden;background:var(--ink);
+    display:flex;flex-direction:column;color:var(--cream);position:relative}
+  .phone .notch{position:absolute;top:14px;left:50%;transform:translateX(-50%);width:38%;height:7px;background:rgba(255,255,255,.16);border-radius:10px;z-index:3}
+  .ph-top{padding:34px 20px 16px;border-bottom:1px solid rgba(245,239,227,.12)}
+  .ph-top .k{font-family:var(--serif);font-size:1.4rem;letter-spacing:.02em}
+  .ph-top .s{font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;color:var(--brass-soft);margin-top:.3em}
+  .ph-body{flex:1;overflow:hidden;padding:14px 16px;display:flex;flex-direction:column;gap:11px;background:linear-gradient(180deg,#241d17,#16110d)}
+  .ph-card{background:rgba(245,239,227,.06);border:1px solid rgba(245,239,227,.1);border-radius:12px;padding:12px 13px}
+  .ph-card .biz{font-size:.62rem;letter-spacing:.16em;text-transform:uppercase;color:rgba(245,239,227,.55)}
+  .ph-card .offer{font-family:var(--serif);font-size:1.02rem;margin-top:.2em;line-height:1.1}
+  .ph-card .code{margin-top:.5em;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-soft);border:1px dashed var(--brass);display:inline-block;padding:.3em .6em;border-radius:5px}
+  .ph-tabs{display:flex;justify-content:space-around;padding:12px 0 16px;border-top:1px solid rgba(245,239,227,.12);font-size:.54rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(245,239,227,.5)}
+  .ph-tabs .on{color:var(--brass-soft)}
+  .app-note{font-size:.68rem;letter-spacing:.06em;color:var(--taupe);margin-top:1.2em;text-align:center;font-style:italic}
+
+  /* ============ BUY / PLACEMENTS ============ */
+  .buy{padding:clamp(72px,10vw,150px) 0;background:var(--ink);color:var(--cream)}
+  .buy h2{font-size:clamp(2rem,4.6vw,3.8rem);color:var(--cream)}
+  .buy .intro{max-width:52ch;color:rgba(245,239,227,.8)}
+  .place{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:rgba(245,239,227,.14);
+    border:1px solid rgba(245,239,227,.14);margin-top:clamp(38px,4vw,60px)}
+  .place .it{background:var(--ink);padding:clamp(26px,3vw,40px);display:flex;flex-direction:column;gap:.6em;min-height:190px}
+  .place .it .t{font-family:var(--serif);font-size:1.5rem}
+  .place .it .d{font-size:.9rem;color:rgba(245,239,227,.72);flex:1}
+  .place .it .p{font-size:.72rem;letter-spacing:.18em;text-transform:uppercase;color:var(--brass-soft)}
+  .place .it.feature{background:linear-gradient(160deg,#2b2119,#16110d);outline:1px solid var(--brass)}
+  .buy-strip{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,3vw,44px);margin-top:clamp(34px,3vw,52px);
+    border-top:1px solid rgba(245,239,227,.16);padding-top:clamp(30px,3vw,46px)}
+  .buy-strip h3{font-family:var(--sans);font-weight:600;font-size:.82rem;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-soft);margin-bottom:1em}
+  .buy-strip ul{list-style:none;margin:0;padding:0}
+  .buy-strip li{padding:.4em 0;color:rgba(245,239,227,.84);font-size:.94rem;border-bottom:1px solid rgba(245,239,227,.08)}
+  .buy-strip li span{float:right;color:var(--taupe);font-size:.78rem;letter-spacing:.08em}
+
+  /* ============ ARCHIVE ============ */
+  .archive{padding:clamp(72px,10vw,150px) 0;background:var(--cream)}
+  .archive-head{text-align:center;max-width:60ch;margin:0 auto clamp(44px,5vw,70px)}
+  .archive-head h2{font-size:clamp(2rem,4.6vw,3.8rem)}
+  .covers{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(20px,3vw,40px)}
+  .cov figure{margin:0}
+  .cov img{width:100%;box-shadow:0 36px 64px -34px rgba(20,16,12,.5);border:1px solid var(--line);transition:transform .4s ease,box-shadow .4s ease}
+  .cov:hover img{transform:translateY(-8px);box-shadow:0 50px 80px -34px rgba(20,16,12,.55)}
+  .cov figcaption{margin-top:1.1em;font-size:.74rem;letter-spacing:.16em;text-transform:uppercase;color:var(--taupe-ink);display:flex;justify-content:space-between;gap:8px}
+  .cov figcaption .iss{color:var(--ink);font-weight:600}
+
+  /* ============ PROOF ============ */
+  .proof{padding:clamp(72px,10vw,140px) 0;background:var(--cream-2)}
+  .proof-head{max-width:64ch;margin-bottom:clamp(40px,4vw,60px)}
+  .proof-head h2{font-size:clamp(1.9rem,4.2vw,3.4rem)}
+  .roster{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+  .rc{background:var(--cream);min-height:150px;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:.85em;padding:30px 24px;text-align:center;transition:background .35s ease}
+  .rc:hover{background:var(--cream)}
+  .rc-name{font-family:var(--serif);font-weight:500;font-size:clamp(1.35rem,2.2vw,1.85rem);
+    color:var(--ink);letter-spacing:.005em;line-height:1.1}
+  .rc-cat{font-family:var(--sans);font-weight:600;font-size:.6rem;letter-spacing:.26em;text-transform:uppercase;
+    color:var(--brass);position:relative;padding-top:.95em}
+  .rc-cat::before{content:"";position:absolute;top:0;left:50%;transform:translateX(-50%);width:26px;height:1px;background:var(--line)}
+
+  /* ============ CLOSING ============ */
+  .closing{position:relative;color:var(--cream);overflow:hidden;
+    min-height:92svh;display:flex;align-items:center;padding:clamp(70px,9vw,130px) 0}
+  .closing-bg{position:absolute;inset:0;z-index:0}
+  .closing-bg img{width:100%;height:100%;object-fit:cover}
+  .closing-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,11,8,.78),rgba(15,11,8,.62) 45%,rgba(15,11,8,.9))}
+  .closing .wrap{position:relative;z-index:2;width:100%}
+  .closing h2{font-size:clamp(2.4rem,6.2vw,5.4rem);max-width:15ch;color:var(--cream)}
+  .closing .serif-lead{color:var(--beige);max-width:40ch;margin-top:1em}
+  .contact{display:grid;grid-template-columns:repeat(4,auto);gap:clamp(22px,4vw,60px);margin-top:clamp(40px,5vw,64px);
+    border-top:1px solid rgba(245,239,227,.2);padding-top:clamp(28px,3vw,40px)}
+  .contact .k{font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;color:var(--brass-soft);margin-bottom:.5em}
+  .contact .v{font-size:1rem;color:var(--cream)}
+  .closing .cta-row{margin-top:clamp(34px,4vw,52px);display:flex;gap:16px;flex-wrap:wrap}
+  .signoff{margin-top:clamp(44px,5vw,64px);font-family:var(--serif);font-style:italic;font-size:clamp(1.1rem,2vw,1.6rem);color:rgba(245,239,227,.9)}
+
+  /* ============ RESPONSIVE ============ */
+  @media(max-width:980px){
+    .hero-mid{grid-template-columns:1fr;gap:34px}
+    .hero-cover{justify-self:start;width:min(240px,55%);transform:rotate(0)}
+    .hero-cover-cap{position:static;top:auto;margin:0 0 .9em;text-align:left;letter-spacing:.2em}
+    .reader-grid{grid-template-columns:1fr;gap:48px}
+    .reader-photo{max-width:420px}
+    .reader-photo .cap{position:static;display:block;margin-top:1em}
+    .app-grid{grid-template-columns:1fr;gap:48px}
+    .phone-wrap{order:-1}
+    .reach-head{grid-template-columns:1fr;gap:18px}
+    .mani-cols{grid-template-columns:1fr 1fr}
+  }
+  @media(max-width:680px){
+    .stat-row{grid-template-columns:1fr 1fr;gap:26px}
+    .reach-nums{grid-template-columns:1fr 1fr}
+    .dist-cols{grid-template-columns:1fr}
+    .place{grid-template-columns:1fr}
+    .covers{grid-template-columns:1fr;max-width:380px;margin:0 auto}
+    .roster{grid-template-columns:1fr 1fr}
+    .buy-strip{grid-template-columns:1fr}
+    .perk-list{grid-template-columns:1fr}
+    .mani-cols{grid-template-columns:1fr}
+    .contact{grid-template-columns:1fr 1fr}
+    .hero-top{font-size:.6rem;letter-spacing:.18em}
+    .scrollcue{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ HERO / COVER ============ -->
+<header class="hero" id="top">
+  <div class="hero-bg">
+    <!-- Cinematic editorial background (atmospheric, text-free, behind dark overlay). -->
+    <img src="assets/backgrounds/cover-bg.jpg" alt="" />
+  </div>
+  <div class="wrap">
+    <div class="hero-top">
+      <span>Between the Covers</span>
+      <span><span class="dot">●</span>&nbsp; Media Kit · Advertising &amp; Partnerships 2026</span>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="hero-mid">
+      <div>
+        <h1 class="masthead">Between<br>the <em>Covers</em></h1>
+        <p class="hero-sub">An unapologetic, emotionally intelligent lifestyle magazine for women — and the LGBTQ+ allies who walk beside them.</p>
+      </div>
+      <div class="hero-cover">
+        <!-- REAL: June 2026 featured issue, Tracy Moore (from Canva DAHBfob1f9w cover spread) -->
+        <img src="assets/covers/tracy-moore-june-2026-cover.png" alt="Between the Covers June 2026 issue featuring Tracy Moore" />
+        <span class="hero-cover-cap">The June 2026 Issue · Tracy Moore</span>
+      </div>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="hero-bottom">
+      <p class="hero-tag">“We don’t just cover stories. We uncover them.”</p>
+      <span class="scrollcue">Scroll</span>
+    </div>
+  </div>
+</header>
+
+<!-- ============ MANIFESTO ============ -->
+<section class="manifesto">
+  <div class="wrap">
+    <p class="eyebrow">What Between the Covers Is</p>
+    <h2>A revolt against the curated, the corporate, and the <span class="b">polished.</span></h2>
+    <div class="grid">
+      <p class="serif-lead" style="max-width:30ch">We tell the truth, even when it’s messy. Especially when it’s messy.</p>
+      <div class="mani-cols">
+        <div>
+          <h3>Real stories, raw voices</h3>
+          <p>BTC champions the kind of reinvention you only earn by living through some shit — for women done performing perfection, and the allies beside them.</p>
+        </div>
+        <div>
+          <h3>We don’t reach readers. We move them.</h3>
+          <p>Every issue lands like a conversation women have been waiting to hear. Our stories make people feel seen — part of something bigger than their own chaos.</p>
+        </div>
+        <div>
+          <h3>A Canadian movement, gone global</h3>
+          <p>What started in Canada now sits in Barnes &amp; Noble, in airport lounges, and in bookstores from Marbella to Dubai to Lahore. Honesty travels further than perfection.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ READER / AUDIENCE ============ -->
+<section class="reader">
+  <div class="wrap">
+    <div class="reader-grid">
+      <div class="reader-photo">
+        <!-- Editorial reader portrait (atmospheric, text-free). -->
+        <img src="assets/backgrounds/reader-portrait.jpg" alt="A Between the Covers reader — an emotionally intelligent, culturally curious woman" />
+      </div>
+      <div>
+        <p class="eyebrow on-dark">Who Reads Us</p>
+        <h2>She is not a demographic box.</h2>
+        <p class="serif-lead">She’s a decision-maker, reader, mother, founder, traveller, caregiver and buyer — usually the one holding the whole damn thing together.</p>
+        <p>These are readers who value authenticity, inclusivity, local impact and storytelling that actually means something. When they invest in a product or service, they’re not just buying — they’re believing. Align with that level of emotional trust and you don’t get visibility. You get loyalty, advocacy, and word-of-mouth money can’t buy.</p>
+        <div class="stat-row">
+          <div class="stat"><div class="n">92%</div><div class="l">Women &amp; femme-presenting</div></div>
+          <div class="stat"><div class="n">30–65</div><div class="l">Core reader age</div></div>
+          <div class="stat"><div class="n">LGBTQ+</div><div class="l">Readers &amp; allies, by design</div></div>
+          <div class="stat"><div class="n">GTA</div><div class="l">Rooted in Toronto &amp; surrounding regions</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ REACH ============ -->
+<section class="reach">
+  <div class="wrap">
+    <div class="reach-head">
+      <h2>The reach behind the voice.</h2>
+      <p class="lead">Educated, self-aware, fiercely loyal to the brands they trust. Print, inbox, app and social — BTC shows up where she already is.</p>
+    </div>
+    <div class="reach-nums">
+      <div class="cell"><div class="n">64k+</div><div class="l">Email subscribers, direct to inbox</div></div>
+      <div class="cell"><div class="n">120k</div><div class="l">Instagram community</div></div>
+      <div class="cell"><div class="n">15k+</div><div class="l">App &amp; digital subscribers</div></div>
+      <div class="cell"><div class="n">4.5%</div><div class="l">Avg. engagement rate</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DISTRIBUTION ============ -->
+<section class="dist">
+  <div class="dist-bg">
+    <!-- Premium retail/lifestyle background (atmospheric, text-free, behind dark overlay). -->
+    <img src="assets/backgrounds/distribution-bg.jpg" alt="" />
+  </div>
+  <div class="wrap">
+    <p class="eyebrow on-dark">Where Brands Show Up</p>
+    <h2>On shelves, in inboxes, and on the laps of very tired women hiding from their families.</h2>
+    <div class="dist-cols">
+      <div class="dist-col">
+        <h3>Across Canada</h3>
+        <ul>
+          <li>Indigo / Chapters nationwide</li>
+          <li>Shoppers Drug Mart</li>
+          <li>Loblaws &amp; Walmart</li>
+          <li>London Drugs</li>
+          <li>800+ independent bookstores</li>
+          <li>Boutiques, cafés &amp; salons</li>
+          <li>Women’s wellness events &amp; pop-ups</li>
+        </ul>
+      </div>
+      <div class="dist-col">
+        <h3>United States &amp; Global</h3>
+        <ul>
+          <li>Barnes &amp; Noble, nationwide</li>
+          <li>Select independent bookstores</li>
+          <li>Women’s retreats &amp; hotel lobbies</li>
+          <li>Spas, salons &amp; airport lounges</li>
+          <li>International: Marbella · Dubai · Lahore</li>
+        </ul>
+      </div>
+      <div class="dist-col">
+        <h3>Digital &amp; Direct</h3>
+        <ul>
+          <li>64,000+ email subscribers</li>
+          <li>15,000+ app &amp; digital subscribers</li>
+          <li>The BTC App — tablet &amp; mobile</li>
+          <li>betweenthecoversmag.com</li>
+          <li>Exclusive features &amp; early-access content</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APP / PERKS ============ -->
+<section class="app">
+  <div class="wrap">
+    <div class="app-grid">
+      <div>
+        <p class="eyebrow">The BTC App · Perks Tab</p>
+        <h2>Your brand, directly in her pocket.</h2>
+        <p class="lead">Advertise in the magazine and opt in to the BTC App Subscriber Perk Program, and we feature your discount code in the “Perks” tab — seen only by verified subscribers. It’s simple, powerful, and human-focused. Just like us.</p>
+        <div class="perk-list">
+          <div class="perk"><h4>Featured placement</h4><p>Your offer lives in the Perks tab, exclusive to verified BTC subscribers.</p></div>
+          <div class="perk"><h4>Direct traffic</h4><p>Drives measurable in-store and online redemptions to your business.</p></div>
+          <div class="perk"><h4>Urgency &amp; loyalty</h4><p>Curated offers readers can’t find anywhere else.</p></div>
+          <div class="perk"><h4>Category exclusivity</h4><p>One business per zone &amp; category — e.g. one yoga studio per neighbourhood.</p></div>
+        </div>
+      </div>
+      <div>
+        <div class="phone-wrap">
+          <!-- BTC App "Perks" tab, rendered as an HTML/CSS device representation. -->
+          <div class="phone" role="img" aria-label="The BTC App Perks tab showing subscriber-exclusive offers">
+            <span class="notch"></span>
+            <div class="screen">
+              <div class="ph-top"><div class="k">Perks</div><div class="s">Subscriber-only offers</div></div>
+              <div class="ph-body">
+                <div class="ph-card"><div class="biz">Spa &amp; Wellness</div><div class="offer">15% off all spa services</div><span class="code">Code · BTCGLOW</span></div>
+                <div class="ph-card"><div class="biz">Café / Dining</div><div class="offer">A free drink with any meal</div><span class="code">Code · BTCTABLE</span></div>
+                <div class="ph-card"><div class="biz">Beauty</div><div class="offer">BOGO on the best-seller</div><span class="code">Code · BTCDUO</span></div>
+                <div class="ph-card"><div class="biz">Experiences</div><div class="offer">First access to event tickets</div><span class="code">Members only</span></div>
+              </div>
+              <div class="ph-tabs"><span>Read</span><span>Shop</span><span class="on">● Perks</span><span>Travel</span></div>
+            </div>
+          </div>
+        </div>
+        <p class="app-note">The “Perks” tab — subscriber-only offers, refreshed every issue.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BUY / PLACEMENTS ============ -->
+<section class="buy">
+  <div class="wrap">
+    <p class="eyebrow on-dark">What You Can Buy</p>
+    <h2>Your ad shouldn’t look like it wandered in from a coupon flyer.</h2>
+    <p class="intro">Advertising with BTC is more than buying space — it’s telling your story the right way. Our in-house design and photography team makes your brand feel like part of the experience, not an interruption.</p>
+
+    <div class="place">
+      <div class="it"><div class="t">Full Page</div><div class="d">A full-page, premium colour advertisement placed within editorial content. Maximum impact for brand storytelling.</div><div class="p">Rate card on request</div></div>
+      <div class="it"><div class="t">Half Page</div><div class="d">A versatile half-page ad, ideal for strong visuals or concise promotional messaging.</div><div class="p">Rate card on request</div></div>
+      <div class="it"><div class="t">One-Third Page</div><div class="d">Compact format for brand presence on a budget — effective for targeted exposure.</div><div class="p">Rate card on request</div></div>
+      <div class="it feature"><div class="t">Premium Positions</div><div class="d">Front cover, inside front, back cover &amp; double-page spread — the most coveted real estate in the issue.</div><div class="p">Rate card on request</div></div>
+      <div class="it"><div class="t">Creative Services</div><div class="d">In-house ad design, campaigns and product / lifestyle photography, so your campaign matches our editorial quality.</div><div class="p">Rate card on request</div></div>
+      <div class="it"><div class="t">Web &amp; Digital</div><div class="d">Targeted web advertising that puts your brand in front of our readers online, wherever they are.</div><div class="p">Rate card on request</div></div>
+    </div>
+
+    <div class="buy-strip">
+      <div>
+        <h3>The BTC Starter Partner Package</h3>
+        <ul>
+          <li>1/3 Page Print Placement (4-colour)</li>
+          <li>App Perk Activation <span>1-month listing</span></li>
+          <li>Digital Issue Inclusion <span>web + archive</span></li>
+          <li>1 Editorial Social Feature <span>Story format</span></li>
+          <li>Brand inclusion in the Issue Release Email</li>
+        </ul>
+        <p class="intro" style="margin-top:1em;color:rgba(245,239,227,.62);font-size:.86rem">Your entry into the BTC ecosystem — built as a first-step partnership, with upgrade options in later issues.</p>
+      </div>
+      <div>
+        <h3>Add-Ons &amp; Reach</h3>
+        <ul>
+          <li>App Listing <span>per cycle</span></li>
+          <li>Instagram Feature <span>add-on</span></li>
+          <li>Email Notification <span>add-on</span></li>
+          <li>Global &amp; multi-country bundles <span>USA · Canada · Marbella · Dubai · Lahore</span></li>
+          <li>Custom campaign &amp; photography <span>quoted</span></li>
+        </ul>
+        <p class="intro" style="margin-top:1em;color:rgba(245,239,227,.62);font-size:.86rem">One placement can enter five countries and three continents. Ask for the current rate card.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ARCHIVE / RECENT COVERS ============ -->
+<section class="archive">
+  <div class="wrap">
+    <div class="archive-head">
+      <p class="eyebrow">Recent Issues</p>
+      <h2>The proof is on the cover.</h2>
+      <p class="lead">Real issues, real editorial. This is the company your brand keeps.</p>
+    </div>
+    <div class="covers">
+      <div class="cov"><figure>
+        <!-- REAL cover: June 2026 featured / current issue, Tracy Moore (Canva DAHBfob1f9w) -->
+        <img src="assets/covers/tracy-moore-june-2026-cover.png" alt="Between the Covers June 2026 issue featuring Tracy Moore" />
+        <figcaption><span class="iss">June 2026 · Current</span><span>The Selves We Bury Issue</span></figcaption>
+      </figure></div>
+      <div class="cov"><figure>
+        <!-- REAL cover: The Appetite Issue (Canva DAHMs9iZNd0) -->
+        <img src="assets/covers/cover-appetite-front.png" alt="Between the Covers — The Appetite Issue cover" />
+        <figcaption><span class="iss">The Appetite Issue</span><span>Good Girls Finish Hungry</span></figcaption>
+      </figure></div>
+      <div class="cov"><figure>
+        <!-- REAL cover: Sept/Oct issue (Canva DAGsVvxtG-k) -->
+        <img src="assets/covers/cover-septoct-DAGsVvxtG-k.png" alt="Between the Covers — Sept/Oct issue cover" />
+        <figcaption><span class="iss">Sept / Oct</span><span>The Motherhood Issue</span></figcaption>
+      </figure></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PROOF / ADVERTISERS ============ -->
+<!--
+  Advertiser roster set in editorial type. These are real BTC advertisers. Clean
+  transparent logo files were not available in Canva, on betweenthecoversmag.com,
+  or in the issue/deck exports at usable resolution, so the verified names are
+  shown rather than faked or empty marks (see file header + CHANGELOG).
+-->
+<section class="proof">
+  <div class="wrap">
+    <div class="proof-head">
+      <p class="eyebrow">In Good Company</p>
+      <h2>Between the Covers doesn’t sell empty impressions. We put brands inside stories people actually read.</h2>
+      <p class="lead" style="margin-top:1.1em;max-width:62ch">From beauty and wellness to dining, retreats and local luxury, BTC partners with brands that understand our reader isn’t passively scrolling — she’s choosing where to eat, book, shop, travel, recover, glow and spend.</p>
+    </div>
+    <div class="roster">
+      <div class="rc"><span class="rc-name">9baci</span><span class="rc-cat">Dining</span></div>
+      <div class="rc"><span class="rc-name">Glitz</span><span class="rc-cat">Beauty</span></div>
+      <div class="rc"><span class="rc-name">Elements Cottages</span><span class="rc-cat">Retreats &amp; Cottage Country</span></div>
+      <div class="rc"><span class="rc-name">Dr. Zargar</span><span class="rc-cat">Aesthetics</span></div>
+      <div class="rc"><span class="rc-name">Vettä</span><span class="rc-cat">Wellness</span></div>
+      <div class="rc"><span class="rc-name">Small Skin Solutions</span><span class="rc-cat">Skincare</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CLOSING / CONTACT ============ -->
+<section class="closing" id="contact">
+  <div class="closing-bg">
+    <!-- Moody editorial closing background (atmospheric, text-free, behind dark overlay). -->
+    <img src="assets/backgrounds/closing-bg.jpg" alt="" />
+  </div>
+  <div class="wrap">
+    <p class="eyebrow on-dark">Let’s Talk</p>
+    <h2>Tell your story the right way.</h2>
+    <p class="serif-lead">Want to feature your brand in Between the Covers? We partner with brands that understand women are not a demographic box.</p>
+    <div class="cta-row">
+      <a class="btn solid" href="mailto:info@jeopublishing.com?subject=Between%20the%20Covers%20—%20Advertising%20Enquiry">Request the rate card</a>
+      <a class="btn inv" href="https://www.betweenthecoversmag.com" target="_blank" rel="noopener">betweenthecoversmag.com</a>
+    </div>
+    <div class="contact">
+      <div><div class="k">Email</div><div class="v">info@jeopublishing.com</div></div>
+      <div><div class="k">Phone</div><div class="v">(416) 937-7578</div></div>
+      <div><div class="k">Web</div><div class="v">betweenthecoversmag.com</div></div>
+      <div><div class="k">Based</div><div class="v">Toronto · serving bold brands everywhere</div></div>
+    </div>
+    <p class="signoff">Because we don’t just cover stories. We uncover them.</p>
+  </div>
+</section>
+
+</body>
+</html>
