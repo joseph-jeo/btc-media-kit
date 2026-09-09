@@ -57,7 +57,7 @@
   try { consent = localStorage.getItem(consentKey); } catch (_) { /* Navigation works without storage. */ }
   function track(eventName, params = {}) {
     if (!enabled || typeof window.gtag !== 'function') return;
-    window.gtag('event', eventName, { ...params, page_location: location.origin + location.pathname });
+    window.gtag('event', eventName, { ...params, send_to: measurementId, page_location: location.origin + location.pathname });
   }
   function enableAnalytics() {
     if (!production) return;
@@ -67,8 +67,18 @@
     loaded = true;
     window.dataLayer = window.dataLayer || [];
     window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', {
+      analytics_storage: 'granted',
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied'
+    });
+    window.gtag('set', 'ads_data_redaction', true);
+    window.gtag('set', 'allow_google_signals', false);
+    window.gtag('set', 'allow_ad_personalization_signals', false);
     window.gtag('js', new Date());
     window.gtag('config', measurementId, {
+      groups: 'btc_media_kit',
       page_location: location.origin + location.pathname,
       page_referrer: '',
       allow_google_signals: false,

@@ -7,6 +7,7 @@
 - Added channel-specific measurement explanations and FAQs, including the difference between clicks, tagged website visits, code redemptions and verified physical visits. No historical campaign performance is invented.
 - Added a three-choice brief that prepares an email to the existing sales address, with a copy fallback and telephone link. No server submission or email delivery is claimed.
 - Added optional consent-based usage events using the measurement ID already present on BTC’s public website. These are enquiry-intent signals, not completed leads or sales; local previews do not send analytics.
+- Live verification found an advertising destination connected to the existing Google tag. Added explicit Analytics event routing, denied advertising consent, and a page-level network allowlist that prevents advertising endpoints from receiving requests.
 - Web/digital rates are labelled CAD and global bundles USD. Print amounts retain quote-confirmed currency pending clarification of the source rate card. Repeat rates are per placement and match the published discounts.
 - Kept the public index and editable HTML copy identical; added sales.css and sales.js. CNAME and existing assets are unchanged.
 - Verified JavaScript syntax, image paths, internal links, price arithmetic, valid form choices, desktop/tablet/phone layouts (320, 390, 768 and default desktop), selected-package email contents, copy-to-clipboard, expandable rates/FAQs, and optional-analytics choice. Browser console was clear during preview checks.
