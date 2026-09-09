@@ -1,5 +1,17 @@
 # Between the Covers — Media Kit · Change Log
 
+## 9 September 2026 — advertising conversion and measurement
+
+- Added a sales-led hero, persistent proposal link, goal-based advertising options and published rates from BTC RATE CARD 2026.pdf.
+- Preserved the editorial palette, real covers and documented advertiser names. Removed stale current-issue labels, unqualified distribution guarantees, invented app-offer examples and the unexplained engagement percentage. Existing channel totals are explicitly publisher-reported.
+- Added channel-specific measurement explanations and FAQs, including the difference between clicks, tagged website visits, code redemptions and verified physical visits. No historical campaign performance is invented.
+- Added a three-choice brief that prepares an email to the existing sales address, with a copy fallback and telephone link. No server submission or email delivery is claimed.
+- Added optional consent-based usage events using the measurement ID already present on BTC’s public website. These are enquiry-intent signals, not completed leads or sales; local previews do not send analytics.
+- Web/digital rates are labelled CAD and global bundles USD. Print amounts retain quote-confirmed currency pending clarification of the source rate card. Repeat rates are per placement and match the published discounts.
+- Kept the public index and editable HTML copy identical; added sales.css and sales.js. CNAME and existing assets are unchanged.
+- Verified JavaScript syntax, image paths, internal links, price arithmetic, valid form choices, desktop/tablet/phone layouts (320, 390, 768 and default desktop), selected-package email contents, copy-to-clipboard, expandable rates/FAQs, and optional-analytics choice. Browser console was clear during preview checks.
+
+
 ## Targeted correction pass — June 2026 issue + proof clean-up
 
 **File:** `Between the Covers Media Kit.dc.html`
