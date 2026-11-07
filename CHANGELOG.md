@@ -1,5 +1,13 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — Motion polish (design engineering review)
+
+- Hero covers fan out from a stack once on load (700ms strong ease-out, 60ms stagger); skipped for reduced motion.
+- Buttons press to scale(0.97) on :active; colour fades tightened to 180ms.
+- Cover lift on hover: 220ms strong ease-out, mouse/trackpad only (no sticky lift on phones).
+- Analytics consent banner fades and rises 8px in over 240ms instead of popping in.
+- Reduced motion now removes movement only and keeps short fades.
+
 ## 7 November 2026 — The Done Issue cover replaces Appetite
 
 - Swapped the Appetite Issue cover for the Nov/Dec 2026 Done Issue cover (Lindura), from Atyeb's final "Cover Design .jpg" in the Drive issues folder (22 Oct 2026). Saved as assets/covers/lindura-done-2026.jpg at 816x1056.
