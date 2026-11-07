@@ -5,7 +5,7 @@
 - Heading changed to "Brands in our pages." so it covers both paid partners and brands featured in our stories.
 - Nine names: Sephora, Carrefour, Kilian Paris, Air Canada, Divorce by Mahra M1, Puente Romano, Jova Medical (injectables and hormones), Lisa Grant Scalp Science (hair), Dr. Zargar (eye care).
 - Sources: Sephora (Sept/Oct 2025 Cheekbone Beauty feature), Sheikha Mahra (BTC Marbella cover story), Puente Romano (BTC Marbella), Air Canada (Nuquí retreat ads), Jova Medical (Nov/Dec 2025 ad, 15% off), Lisa Grant (Jan/Feb 2026), Dr. Zargar (Jan/Feb 2026). Carrefour and Kilian Paris added on Joseph's word: no file record found.
-- Vettä, Glitz, Small Skin Solutions and Elements Cottages moved off the grid; the line under it now reads "Plus partners in interior design, Nordic spas, skincare and wellness."
+- Vettä, Glitz, Small Skin Solutions and Elements Cottages moved off the grid; the line under it now reads "Plus partners in interior design, skincare and wellness."
 
 ## 7 November 2026 — Brand roster
 
