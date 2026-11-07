@@ -1,5 +1,13 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — One design system
+
+- Colour: one accent (oxblood on light, rose on dark). Teal/mint removed; the Curaçao section is now warm stone with oxblood accents and a dark offer card. The audience band uses the same ink as the hero (the near-identical second black is gone).
+- Type scale as tokens: hero, statement H2 (partner, Curaçao, contact), section H2, H3, stat, lead, small, label. Fifteen ad-hoc heading sizes collapsed to these.
+- Bodoni is now for headlines and big numbers only. Prices, FAQ questions, email/phone and the rate tables set in Schibsted Grotesk, where the Bodoni hairlines were breaking up.
+- Labels: one size (.75rem) and one letter-spacing (.16em) everywhere; smallest text raised to .84rem.
+- Stat suffixes (+, ×) set in the text face so they no longer vanish.
+
 ## 7 November 2026 — Motion polish (design engineering review)
 
 - Hero covers fan out from a stack once on load (700ms strong ease-out, 60ms stagger); skipped for reduced motion.
