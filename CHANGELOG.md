@@ -1,5 +1,10 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — The Done Issue cover replaces Appetite
+
+- Swapped the Appetite Issue cover for the Nov/Dec 2026 Done Issue cover (Lindura), from Atyeb's final "Cover Design .jpg" in the Drive issues folder (22 Oct 2026). Saved as assets/covers/lindura-done-2026.jpg at 816x1056.
+- Hero fan: Done Issue replaces Appetite in the left slot. Recent covers row now leads with the Done Issue (newest first), then Tracy Moore, then the Motherhood Issue.
+
 ## 7 November 2026 — New reader photo
 
 - Replaced the reader-section portrait with a new image (reader-at-home-1200.jpg): a Black woman in her fifties taking a quiet minute at her kitchen island with coffee and the Tracy Moore issue, with signs of a full life around her (closed laptop, keys, work tote, a child's drawing). Generated in Magnific (Nano Banana 2.1) using the real June 2026 cover as reference. Previous portrait files are kept but no longer used.
