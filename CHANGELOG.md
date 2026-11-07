@@ -1,5 +1,11 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — Hero: one global issue
+
+- Hero headline "Six editions. One voice. Now Curaçao." replaced by "One issue. Six countries. One price."
+- Editions bar label is now "Read in". The audience stat reads "6 Countries, one global issue".
+- Meta and social descriptions updated to match.
+
 ## 7 November 2026 — Global USD rate card
 
 - One global issue, one price, all in US dollars. The country "Editions" column (up to $14,900) is gone, and so are CAD prices.
