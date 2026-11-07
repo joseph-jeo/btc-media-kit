@@ -3,7 +3,7 @@
 ## 7 November 2026 — Buyer-ready kit
 
 - Tone: removed the profanity from the reader section.
-- App row now mentions local and online perks (Cheekbone Beauty) and in-app booking of hotels and flights. New row: "Local, inside a global issue" (city email segments, city-only app perks, geo-targeted Instagram).
+- App row: dropped the "#97" chart rank (it was #135 on 7 Nov). Now mentions local and online perks (Cheekbone Beauty) and in-app booking of hotels and flights. New row: "Local, inside a global issue" (city email segments, city-only app perks, geo-targeted Instagram).
 - Case study: Royal Heir Botanicals, five issues; founder Henrieta Haniskova reports close to 86% more website traffic when an issue comes out. Wording to be approved by Henrieta.
 - Distribution line: Indigo and independent bookstores, salons, hotel lounges.
 - FAQ: placement promise (no ads facing stories on sexual violence, abuse or self-harm).
