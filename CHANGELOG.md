@@ -1,5 +1,14 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — Global USD rate card
+
+- One global issue, one price, all in US dollars. The country "Editions" column (up to $14,900) is gone, and so are CAD prices.
+- Print: one-third $750, half $1,200, full $1,950, spread $3,400, inside front cover $3,500, back cover $3,900.
+- Digital: email + app push $350, Spotlight web ad $650, Instagram Story $750, Showcase web ad $950, app listing $250/mo.
+- Packages: launch page (full page + web feature) $1,500; partnership (full page, feature, Instagram, email) $2,900; takeover (spread, feature, Instagram, email, app perk) $4,900.
+- Repeat discounts now 10% (four issues) and 20% (six issues).
+- The launch rate is open to every business, not only Curaçao. The "Already advertising in Canada?" box is now "One issue. One price." The brief form's Canada option became "Partnership or takeover package".
+
 ## 7 November 2026 — Papa & Filles on the roster
 
 - Lisa Grant Scalp Science replaced by Papa & Filles (peptide care), which runs in the Jan/Feb 2027 global issue ("The Blue in the Bottle").
