@@ -1,5 +1,10 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — Google search reach
+
+- Added a second proof row from Google Search Console (6 Nov 2025 to 5 Nov 2026): 232k search appearances (232,606), 86x more appearances a month (662 in Nov 2025, 56,915 in Sept 2026), readers clicking through from 90 countries. Clicks over the year: 4,182 (not shown).
+- PDF regenerated.
+
 ## 7 November 2026 — Buyer-ready kit
 
 - Tone: removed the profanity from the reader section.
