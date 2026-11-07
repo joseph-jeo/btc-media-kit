@@ -1,5 +1,16 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — BTC Global launch and editorial partnership rebuild
+
+- New positioning: six editions (Canada, United States, Marbella, Dubai, Lahore, Curaçao), led by "Buy a page. Get a story."
+- Added the editorial partnership section: every partnership can include a BTC-written feature on betweenthecoversmag.com with a link to the advertiser. Partner links are described as labelled and tagged rel="sponsored", per Google's paid-link policy.
+- Added the BTC Global / Curaçao launch section: $1,500 USD full page plus web feature with link (rate set by Joseph Tito, 7 Nov 2026), the Canada-to-Curaçao matching placement, and the Curaçao Tourist Board 2025 stayover record (~788,000).
+- Corrected cover captions: the Sept/Oct cover is the 2025 Motherhood Issue; current issues (The Done Issue, Possessed with Anna Lambe) named in text. New covers to be added when exported.
+- Removed numbered markers and the defensive measurement copy; FAQ rewritten around the feature, the link, the launch rate and tracking.
+- Covers and portrait re-exported as web JPGs (9.8 MB of PNG down to ~0.7 MB). Original PNGs kept.
+- Domain Rating slot added in sales.js (AUTHORITY.score); hidden until a verified number is entered.
+- New single stylesheet inline; sales.css is no longer loaded. sales.js IDs, brief and consent-gated analytics unchanged apart from copy.
+
 ## 9 September 2026 — advertising conversion and measurement
 
 - Added a sales-led hero, persistent proposal link, goal-based advertising options and published rates from BTC RATE CARD 2026.pdf.

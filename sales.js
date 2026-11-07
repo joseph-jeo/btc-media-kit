@@ -7,12 +7,12 @@
   const email = document.getElementById('email-brief');
   const status = document.getElementById('brief-status');
   const fallback = document.getElementById('brief-fallback');
-  const subject = 'Between the Covers — advertising proposal';
+  const subject = 'Between the Covers advertising proposal';
   const brief = () => [
     'Hello BTC team,', '', 'I’d like a proposal for my business.', '',
     `Interest: ${placement.value}`, `Goal: ${goal.value}`, `Timing: ${timing.value}`, '',
     'Business name / website:', 'Location / target market:', 'Budget and currency:', '',
-    'Please include suitable placements, dates, pricing, current audience figures and the available campaign measurement.', '',
+    'Please send placements, dates, pricing and current audience figures for my market.', '',
     'Name and contact details:'
   ].join('\n');
   const update = () => {
@@ -122,6 +122,14 @@
       track(event, { cta_location: action });
     });
   });
+  // Domain Rating slot: set score (e.g. '42') and it appears in the partnership section.
+  const AUTHORITY = { score: '', label: 'Ahrefs Domain Rating for betweenthecoversmag.com' };
+  const authority = document.getElementById('authority-score');
+  if (authority && AUTHORITY.score) {
+    authority.querySelector('.n').textContent = AUTHORITY.score;
+    authority.querySelector('.l').textContent = AUTHORITY.label;
+    authority.hidden = false;
+  }
   // An email click is an intent signal, never a submitted lead or confirmed sale.
   update();
 })();
