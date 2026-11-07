@@ -219,10 +219,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .roster-sec{padding-block:clamp(64px,8vw,104px)}
 .roster-sec h2{font-size:var(--fs-h2);margin-bottom:clamp(24px,3vw,40px)}
 .roster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border-top:2px solid var(--ink)}
-.roster div{padding:22px 16px 22px 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.roster div{padding:22px 16px 22px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:6px}
 .roster div:nth-child(3n+2),.roster div:nth-child(3n){padding-left:16px;border-left:1px solid var(--line)}
 .roster b{font-family:var(--display);font-weight:500;font-size:clamp(1.4rem,2.2vw,1.8rem)}
-.roster span{font-size:var(--fs-label);letter-spacing:var(--track-label);text-transform:uppercase;color:var(--oxblood);text-align:right}
+.roster span{font-size:var(--fs-label);letter-spacing:var(--track-label);text-transform:uppercase;color:var(--oxblood)}
+.roster-more{margin:18px 0 0;color:var(--mute);font-size:var(--fs-small)}
 
 /* rates */
 .rates{background:var(--ink);color:var(--paper);padding-block:clamp(72px,9vw,128px)}
@@ -476,13 +477,14 @@ details.more summary::-webkit-details-marker{display:none}
     <p class="kicker">In good company</p>
     <h2>Brands that have run with BTC.</h2>
     <div class="roster">
-      <div><b>9baci</b><span>Dining</span></div>
+      <div><b>Kilian Paris</b><span>Luxury fragrance</span></div>
+      <div><b>Dr. Zargar</b><span>Aesthetics &amp; skin</span></div>
+      <div><b>Vettä</b><span>Nordic spa</span></div>
       <div><b>Glitz</b><span>Beauty</span></div>
+      <div><b>Small Skin Solutions</b><span>Aesthetics &amp; skin</span></div>
       <div><b>Elements Cottages</b><span>Retreats</span></div>
-      <div><b>Dr. Zargar</b><span>Aesthetics</span></div>
-      <div><b>Vettä</b><span>Wellness</span></div>
-      <div><b>Small Skin Solutions</b><span>Skincare</span></div>
     </div>
+    <p class="roster-more">Plus partners in dining, travel and life after divorce.</p>
   </div>
 </section>
 

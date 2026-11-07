@@ -1,5 +1,11 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — Brand roster
+
+- Roster led by Kilian Paris (luxury fragrance, confirmed by Joseph). 9baci removed. Aesthetics and skincare merged into one category ("Aesthetics & skin"); Vettä labelled as a Nordic spa so non-Canadian readers know what it is.
+- Category now stacks under each brand name instead of squeezing beside it.
+- Added a line: "Plus partners in dining, travel and life after divorce." The divorce partner is not named yet: add it once its exact spelling is confirmed.
+
 ## 7 November 2026 — One design system
 
 - Colour: one accent (oxblood on light, rose on dark). Teal/mint removed; the Curaçao section is now warm stone with oxblood accents and a dark offer card. The audience band uses the same ink as the hero (the near-identical second black is gone).
