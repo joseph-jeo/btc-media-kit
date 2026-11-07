@@ -3,7 +3,7 @@
 ## 7 November 2026 — The Done Issue cover replaces Appetite
 
 - Swapped the Appetite Issue cover for the Nov/Dec 2026 Done Issue cover (Lindura), from Atyeb's final "Cover Design .jpg" in the Drive issues folder (22 Oct 2026). Saved as assets/covers/lindura-done-2026.jpg at 816x1056.
-- Hero fan: Done Issue replaces Appetite in the left slot. Recent covers row now leads with the Done Issue (newest first), then Tracy Moore, then the Motherhood Issue.
+- Hero fan: Done Issue moved to the front (caption "Lindura · The Done Issue"); Tracy Moore moves to the left slot, Appetite removed. Recent covers row now leads with the Done Issue (newest first), then Tracy Moore, then the Motherhood Issue.
 
 ## 7 November 2026 — New reader photo
 
