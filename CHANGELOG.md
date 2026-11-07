@@ -1,5 +1,12 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — Authority numbers from Ahrefs and the app stores
+
+- Partnership section: added a proof strip with figures from Ahrefs Site Explorer (7 Nov 2026): 1,000+ linking websites (1,032; label "Websites now link to BTC"), 13x growth since February 2026 (78 to 1,032), BTC cited by five AI platforms (Google AI Overviews, Google AI Mode, ChatGPT, Perplexity, Copilot), and Wikipedia citing BTC interviews as a source.
+- "Why the link matters" copy now names the AI platforms that actually cite BTC (Gemini removed: 0 citations).
+- BTC app row: on the App Store and Google Play, 5.0 App Store rating, #97 in Magazines & Newspapers on the Canadian App Store (7 Nov 2026).
+- Domain Rating (17) deliberately left out; the sales.js DR slot stays empty and hidden.
+
 ## 7 November 2026 — BTC Global launch and editorial partnership rebuild
 
 - New positioning: six editions (Canada, United States, Marbella, Dubai, Lahore, Curaçao), led by "Buy a page. Get a story."

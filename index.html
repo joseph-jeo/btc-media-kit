@@ -130,6 +130,11 @@ body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset
 .authority .dr{display:flex;align-items:baseline;gap:14px;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:16px}
 .authority .dr .n{font-family:var(--display);font-size:clamp(3rem,6vw,4.8rem);line-height:1;color:var(--oxblood)}
 .authority .dr .l{font-size:.86rem;color:var(--mute);max-width:22ch}
+.proof{grid-column:1/-1;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:clamp(20px,3vw,40px);border-top:2px solid var(--ink);padding-top:clamp(20px,2.6vw,32px)}
+.proof .n{font-family:var(--display);font-size:clamp(2.4rem,4.6vw,3.8rem);line-height:1;color:var(--oxblood);font-variant-numeric:lining-nums}
+.proof .n.word{font-size:clamp(1.7rem,3vw,2.5rem);padding-top:.35em}
+.proof p{margin:.55rem 0 0;font-size:.92rem;color:var(--mute);max-width:30ch}
+.proof .proof-src{grid-column:1/-1;margin:0;max-width:none;font-size:.78rem;color:var(--mute)}
 .checks{list-style:none;margin:0;padding:0}
 .checks li{padding:.7em 0 .7em 1.8em;border-bottom:1px solid var(--line);position:relative}
 .checks li::before{content:"";position:absolute;left:0;top:1.15em;width:.9em;height:.5em;border-left:2px solid var(--oxblood);border-bottom:2px solid var(--oxblood);transform:rotate(-45deg)}
@@ -275,6 +280,7 @@ details.more summary::-webkit-details-marker{display:none}
   .rate-cols{grid-template-columns:minmax(0,1fr)}
   .num-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
   .num-grid>div:nth-child(3){padding-left:0;border-left:0}
+  .proof{grid-template-columns:repeat(2,minmax(0,1fr))}
   .reader-photo{max-width:420px}
 }
 @media (max-width:640px){
@@ -353,7 +359,7 @@ details.more summary::-webkit-details-marker{display:none}
       <div class="stack-row hl"><h3>Your story, written by us</h3><p>A feature on betweenthecoversmag.com written by the BTC editorial team in the magazine's voice. Readers get a reason to care, not a brochure.</p></div>
       <div class="stack-row hl"><h3>A link from our site to yours</h3><p>Every feature links to your website, so the readers we send you arrive ready to book, shop or visit.</p></div>
       <div class="stack-row"><h3>The inbox and Instagram</h3><p>Add an email feature to 64,000+ subscribers or an Instagram Story to a 120,000-strong community.</p></div>
-      <div class="stack-row"><h3>The BTC app</h3><p>A subscriber perk with your offer and your own code, so you can count every redemption.</p></div>
+      <div class="stack-row"><h3>The BTC app</h3><p>On the App Store and Google Play, rated 5.0 on the App Store and ranked #97 in Magazines &amp; Newspapers in Canada (November 2026). Your offer runs as a subscriber perk with your own code, so you can count every redemption.</p></div>
     </div>
     <p class="fine" style="margin-top:14px">Each package lists exactly which of these it includes before you book.</p>
 
@@ -361,7 +367,7 @@ details.more summary::-webkit-details-marker{display:none}
       <div>
         <p class="kicker">Why the link matters</p>
         <h3>Google listens to who talks about you.</h3>
-        <p>Search engines, and AI assistants like ChatGPT and Gemini, decide which brands to surface partly by who mentions them and links to them. A feature on an established editorial site is that kind of mention. An ad runs for an issue. The story keeps working.</p>
+        <p>Search engines and AI assistants decide which brands to recommend partly by who writes about them. Google's AI answers, ChatGPT, Perplexity and Copilot already cite BTC stories. A feature with us puts your name where they read. An ad runs for an issue. The story keeps working.</p>
       </div>
       <div>
         <div class="dr" id="authority-score" hidden><span class="n"></span><span class="l"></span></div>
@@ -371,6 +377,13 @@ details.more summary::-webkit-details-marker{display:none}
           <li>Clearly labelled as a partner feature, with the link tagged the way Google asks, so your site's reputation is protected</li>
           <li>Shared with our readers across email and social when your package includes it</li>
         </ul>
+      </div>
+      <div class="proof" aria-label="Site authority">
+        <div><div class="n">1,000+</div><p>Websites now link to BTC</p></div>
+        <div><div class="n">13&times;</div><p>More linking sites than in February 2026, from 78 to 1,032</p></div>
+        <div><div class="n">5</div><p>AI platforms cite BTC stories: Google AI Overviews, Google AI Mode, ChatGPT, Perplexity and Copilot</p></div>
+        <div><div class="n word">Wikipedia</div><p>Cites BTC interviews as a source, including the Bif Naked article</p></div>
+        <p class="proof-src">Source: Ahrefs Site Explorer, 7 November 2026.</p>
       </div>
     </div>
   </div>
