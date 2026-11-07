@@ -1,5 +1,9 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — Papa & Filles on the roster
+
+- Lisa Grant Scalp Science replaced by Papa & Filles (peptide care), which runs in the Jan/Feb 2027 global issue ("The Blue in the Bottle").
+
 ## 7 November 2026 — Brand roster, wider
 
 - Heading changed to "Brands in our pages." so it covers both paid partners and brands featured in our stories.
