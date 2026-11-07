@@ -294,9 +294,40 @@ details.more summary::-webkit-details-marker{display:none}
 .analytics-choice .btn{min-height:42px;padding:.5em 1em;font-size:.76rem}
 
 /* responsive */
+/* case study */
+.case{margin-top:clamp(48px,6vw,80px);display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:clamp(24px,4vw,64px);align-items:center;border-top:2px solid var(--ink);border-bottom:1px solid var(--line);padding-block:clamp(28px,4vw,48px)}
+.case h3{font-size:var(--fs-h3);margin-bottom:.6rem}
+.case p{color:var(--mute);max-width:58ch;margin:0}
+.case .kicker{color:var(--oxblood);margin-bottom:.8rem}
+.case-stat .n{font-family:var(--display);font-size:clamp(3.4rem,7vw,5.6rem);line-height:1;color:var(--oxblood);font-variant-numeric:lining-nums}
+.case-stat .n .sfx{color:var(--oxblood)}
+.case-stat p{margin-top:.6rem;font-size:var(--fs-small)}
+/* plan: calendar, deadlines, specs */
+.plan{padding-block:clamp(64px,8vw,112px);background:var(--paper-2)}
+.plan-head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:clamp(24px,5vw,72px);align-items:end;margin-bottom:clamp(28px,4vw,48px)}
+.plan-head h2{font-size:var(--fs-h2)}
+.plan-head h2 em{color:var(--oxblood)}
+.plan-head .lead{margin:0;color:var(--mute)}
+.cal{width:100%;min-width:520px;border-collapse:collapse;border-top:2px solid var(--ink)}
+.cal th,.cal td{text-align:left;padding:.9em .6em .9em 0;border-bottom:1px solid var(--line);vertical-align:baseline}
+.cal thead th{font-size:var(--fs-label);letter-spacing:var(--track-label);text-transform:uppercase;color:var(--oxblood);font-weight:600}
+.cal tbody th{font-weight:600;white-space:nowrap}
+.cal tbody td:nth-child(2){font-family:var(--display);font-size:clamp(1.15rem,1.8vw,1.45rem)}
+.cal tbody td:last-child{color:var(--mute)}
+.cal .now th,.cal .now td:nth-child(2){color:var(--oxblood)}
+.plan .fine{margin:12px 0 0}
+.plan-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:clamp(28px,5vw,72px);margin-top:clamp(40px,5vw,64px)}
+.plan-grid h3{font-family:var(--text);font-size:var(--fs-label);font-weight:700;letter-spacing:var(--track-label);text-transform:uppercase;color:var(--oxblood);padding-bottom:14px;border-bottom:2px solid var(--ink);margin:0}
+.deadlines{margin:0}
+.deadlines div{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:.8em 0;border-bottom:1px solid var(--line)}
+.deadlines dt{font-weight:600}
+.deadlines dd{margin:0;color:var(--mute);text-align:right}
+.deadlines .now dt,.deadlines .now dd{color:var(--oxblood)}
+.plan .dl{margin-top:clamp(32px,4vw,48px);color:var(--ink);border-color:var(--ink)}
+.plan .dl:hover{background:var(--ink);color:var(--paper)}
 @media (max-width:980px){
   .nav-links{display:none}
-  .hero .wrap,.partner-top,.authority,.global-grid,.reader .wrap,.rates-head,.faq .wrap,.contact .wrap{grid-template-columns:minmax(0,1fr)}
+  .hero .wrap,.partner-top,.authority,.global-grid,.reader .wrap,.rates-head,.faq .wrap,.contact .wrap,.case,.plan-head,.plan-grid{grid-template-columns:minmax(0,1fr)}
   .fan{justify-self:center;max-width:420px}
   .rate-cols{grid-template-columns:minmax(0,1fr)}
   .num-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
@@ -315,6 +346,18 @@ details.more summary::-webkit-details-marker{display:none}
   .num-grid>div:nth-child(3){padding-left:0}
   .nav .btn{display:none}
 }
+@media print{
+  @page{size:8.5in 11in;margin:0}
+  *{-webkit-print-color-adjust:exact;print-color-adjust:exact;animation:none!important;transition:none!important}
+  .nav,.skip-link,.brief,.analytics-choice,.hero-actions,.plan .dl,.link{display:none!important}
+  .contact .wrap{grid-template-columns:minmax(0,1fr)}
+  .case,.authority,.roster,.rate-cols,.cal,.plan-grid,.covers{break-inside:avoid}
+  .faq details p{display:block}
+  *{box-shadow:none!important;filter:none!important}
+  h2,h3,.kicker,.rates-head,.plan-head{break-after:avoid}
+  .offer,.reader .wrap>div:last-child,.rates-head,.faq details,.stack-row{break-inside:avoid}
+  .global .kicker{break-before:page}
+}
 </style>
 <script src="sales.js?v=20261107" defer></script>
 </head>
@@ -324,7 +367,7 @@ details.more summary::-webkit-details-marker{display:none}
 <nav class="nav" aria-label="Media kit">
   <div class="wrap">
     <a class="brand" href="#top">Between the Covers<small>Media kit 2026</small></a>
-    <div class="nav-links"><a href="#numbers">Audience</a><a href="#partnership">Partnership</a><a href="#global">Curaçao launch</a><a href="#rates">Rates</a></div>
+    <div class="nav-links"><a href="#numbers">Audience</a><a href="#partnership">Partnership</a><a href="#global">Curaçao launch</a><a href="#rates">Rates</a><a href="#plan">Specs</a></div>
     <a class="btn btn-fill" href="#contact" data-cta="nav">Book a page</a>
   </div>
 </nav>
@@ -380,9 +423,22 @@ details.more summary::-webkit-details-marker{display:none}
       <div class="stack-row hl"><h3>Your story, written by us</h3><p>A feature on betweenthecoversmag.com written by the BTC editorial team in the magazine's voice. Readers get a reason to care, not a brochure.</p></div>
       <div class="stack-row hl"><h3>A link from our site to yours</h3><p>Every feature links to your website, so the readers we send you arrive ready to book, shop or visit.</p></div>
       <div class="stack-row"><h3>The inbox and Instagram</h3><p>Add an email feature to 64,000+ subscribers or an Instagram Story to a 120,000-strong community.</p></div>
-      <div class="stack-row"><h3>The BTC app</h3><p>On the App Store and Google Play, rated 5.0 on the App Store and ranked #97 in Magazines &amp; Newspapers in Canada (November 2026). Your offer runs as a subscriber perk with your own code, so you can count every redemption.</p></div>
+      <div class="stack-row"><h3>The BTC app</h3><p>On the App Store and Google Play, rated 5.0 on the App Store and ranked #97 in Magazines &amp; Newspapers in Canada (November 2026). Readers use it for subscriber perks, local and online (Cheekbone Beauty is one), and to book hotels and flights directly. Your offer runs as a perk with your own code, so you can count every redemption and every booking.</p></div>
+      <div class="stack-row hl"><h3>Local, inside a global issue</h3><p>Aim it at your city: city email segments, city-only app perks and geo-targeted Instagram. A clinic in Vaughan reaches Vaughan. A hotel in Marbella reaches the women planning to go there.</p></div>
     </div>
     <p class="fine" style="margin-top:14px">Each package lists exactly which of these it includes before you book.</p>
+
+    <div class="case">
+      <div>
+        <p class="kicker">What happens after</p>
+        <h3>Royal Heir Botanicals came back for five issues.</h3>
+        <p>Founder Henrieta Haniskova watches her numbers every time a new issue lands. Her website traffic jumps by close to 86%, and her sales rise with it. That's why she keeps booking.</p>
+      </div>
+      <div class="case-stat">
+        <div class="n">86<span class="sfx">%</span></div>
+        <p>Rise in website traffic when a BTC issue comes out, reported by Royal Heir Botanicals</p>
+      </div>
+    </div>
 
     <div class="authority">
       <div>
@@ -450,7 +506,7 @@ details.more summary::-webkit-details-marker{display:none}
       <p class="kicker">The reader</p>
       <h2>She is not a<br><em>demographic box.</em></h2>
       <p class="pull">She's a founder, a mother, a traveller, a caregiver and the one holding the whole thing together.</p>
-      <p>BTC is an unapologetic, emotionally intelligent lifestyle magazine for women and LGBTQ+ readers. We publish real stories, raw voices and the kind of reinvention you only earn by living through some shit. She trusts us because we don't sell her a fantasy.</p>
+      <p>BTC is an unapologetic, emotionally intelligent lifestyle magazine for women and LGBTQ+ readers. We publish real stories, raw voices and the kind of reinvention you only earn by living through it. She trusts us because we don't sell her a fantasy.</p>
       <p>That trust is what you're buying. When we tell her about you, she listens.</p>
       <ul class="cats" aria-label="Categories our readers spend on"><li>Beauty</li><li>Wellness</li><li>Dining</li><li>Travel</li><li>Home &amp; real estate</li><li>Fashion</li><li>Family</li></ul>
     </div>
@@ -461,7 +517,7 @@ details.more summary::-webkit-details-marker{display:none}
   <div class="wrap">
     <div class="covers-head">
       <div><p class="kicker">Recent covers</p><h2>Your brand, <em>in this company.</em></h2></div>
-      <p>Covers people pick up in Indigo and keep on the coffee table. Your page sits inside them.</p>
+      <p>On the shelf at Indigo and independent bookstores, in salons and in hotel lounges, then on the coffee table for two months. Your page sits inside.</p>
     </div>
     <div class="covers">
       <figure><img src="assets/covers/lindura-done-2026.jpg" width="816" height="1056" alt="The Done Issue featuring Lindura" loading="lazy"><figcaption><b>Lindura</b><span>The Done Issue, Nov/Dec 2026</span></figcaption></figure>
@@ -546,6 +602,54 @@ details.more summary::-webkit-details-marker{display:none}
   </div>
 </section>
 
+<section class="plan" id="plan">
+  <div class="wrap">
+    <div class="plan-head">
+      <div><p class="kicker">Plan your year</p><h2>Pick the issue <em>made for you.</em></h2></div>
+      <p class="lead">Six global issues a year, each built around a theme. Book the one your customers are already thinking about.</p>
+    </div>
+    <div class="table-scroll" role="region" aria-label="2027 editorial calendar" tabindex="0">
+      <table class="cal">
+        <thead><tr><th scope="col">Issue</th><th scope="col">Theme</th><th scope="col">Made for</th></tr></thead>
+        <tbody>
+          <tr class="now"><th scope="row">Jan/Feb 2027</th><td>The Colour Issue</td><td>Beauty, hair, fashion, Caribbean travel</td></tr>
+          <tr><th scope="row">Mar/Apr 2027</th><td>The Body Issue</td><td>Injectables, medspas, wellness, fitness</td></tr>
+          <tr><th scope="row">May/Jun 2027</th><td>The Mother Issue</td><td>Family, gifting, dining, fashion</td></tr>
+          <tr><th scope="row">Jul/Aug 2027</th><td>The Escape Issue</td><td>Hotels, airlines, resorts, retreats</td></tr>
+          <tr><th scope="row">Sep/Oct 2027</th><td>The Money Issue</td><td>Real estate, finance, divorce and family law</td></tr>
+          <tr><th scope="row">Nov/Dec 2027</th><td>The Gift Issue</td><td>Fragrance, retail, holiday dining, travel</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="fine">Themes after Jan/Feb can shift. Your proposal confirms the issue and its dates.</p>
+
+    <div class="plan-grid">
+      <div>
+        <h3>Deadlines</h3>
+        <dl class="deadlines">
+          <div><dt>Book your space</dt><dd>4 weeks before the issue prints</dd></div>
+          <div><dt>Send artwork</dt><dd>2 weeks before the issue prints</dd></div>
+          <div><dt>Need us to design it?</dt><dd>Book 6 weeks ahead</dd></div>
+          <div class="now"><dt>Jan/Feb 2027, last pages</dt><dd>Book and send by 13 November</dd></div>
+        </dl>
+      </div>
+      <div>
+        <h3>Ad specs</h3>
+        <dl class="deadlines">
+          <div><dt>Full page</dt><dd>8.5 &times; 11 in, 8.75 &times; 11.25 in with bleed</dd></div>
+          <div><dt>Double-page spread</dt><dd>17 &times; 11 in, 17.25 &times; 11.25 in with bleed</dd></div>
+          <div><dt>Half page</dt><dd>7.5 &times; 4.875 in, no bleed</dd></div>
+          <div><dt>One-third page</dt><dd>2.375 &times; 10 in, no bleed</dd></div>
+          <div><dt>Web ads</dt><dd>Spotlight 450 &times; 825 px, Showcase 450 &times; 332 px</dd></div>
+          <div><dt>Instagram Story</dt><dd>1080 &times; 1920 px</dd></div>
+        </dl>
+        <p class="fine">Print files: press-ready PDF, CMYK, 300 dpi, fonts embedded. Keep text 0.5 in inside the trim.</p>
+      </div>
+    </div>
+    <a class="btn btn-ghost dl" href="assets/btc-media-kit.pdf" download data-cta="download_pdf">Download the media kit (PDF)</a>
+  </div>
+</section>
+
 <section class="faq">
   <div class="wrap">
     <div><p class="kicker">Before you book</p><h2>Fair questions.</h2></div>
@@ -554,6 +658,7 @@ details.more summary::-webkit-details-marker{display:none}
       <details><summary>Will the feature link to my website?</summary><p>Yes. Every partner feature on betweenthecoversmag.com links to your site. It's labelled as a partner feature and the link is tagged the way Google asks for paid placements, which keeps your site's search reputation safe.</p></details>
       <details><summary>What do I get for the $1,500 launch rate?</summary><p>A full page in the BTC Global issue and an editorial feature on our site with a link to yours. Email, Instagram and app perks can be added from the rate card.</p></details>
       <details><summary>How will I know it worked?</summary><p>We give you a tracked link for the feature and a QR code for print. Add a BTC offer code at your till or checkout and you can count every booking and sale that comes from us.</p></details>
+      <details><summary>Will my ad sit next to a difficult story?</summary><p>No. Ads never face stories about sexual violence, abuse or self-harm; those pages carry our own house ads. Tell us any other topic you want to stay clear of and we'll keep your page away from it.</p></details>
       <details><summary>Can I start with one placement?</summary><p>Yes. Start with one page or one feature and grow from there. Four or six issues earn the repeat rates above.</p></details>
     </div>
   </div>
@@ -616,5 +721,6 @@ details.more summary::-webkit-details-marker{display:none}
   <p>Allow optional analytics so we can improve this media kit? It records page use and button clicks, never what you write.</p>
   <div><button type="button" class="btn btn-fill" id="allow-analytics">Allow</button><button type="button" class="btn btn-ghost" id="decline-analytics">No thanks</button></div>
 </div>
+<script>addEventListener("beforeprint",()=>document.querySelectorAll("details").forEach(d=>d.open=true))</script>
 </body>
 </html>

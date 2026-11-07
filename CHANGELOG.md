@@ -1,5 +1,15 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — Buyer-ready kit
+
+- Tone: removed the profanity from the reader section.
+- App row now mentions local and online perks (Cheekbone Beauty) and in-app booking of hotels and flights. New row: "Local, inside a global issue" (city email segments, city-only app perks, geo-targeted Instagram).
+- Case study: Royal Heir Botanicals, five issues; founder Henrieta Haniskova reports close to 86% more website traffic when an issue comes out. Wording to be approved by Henrieta.
+- Distribution line: Indigo and independent bookstores, salons, hotel lounges.
+- FAQ: placement promise (no ads facing stories on sexual violence, abuse or self-harm).
+- New "Plan your year" section (#plan, nav "Specs"): 2027 editorial calendar (Jan/Feb The Colour Issue confirmed; later themes proposed), deadlines (book 4 weeks before print, artwork 2 weeks, design 6 weeks; Jan/Feb last pages 13 November), ad specs (8.5 x 11 in trim, 0.125 in bleed) and a PDF download.
+- Print stylesheet added. assets/btc-media-kit.pdf is generated from the page with headless Chrome; regenerate it whenever the page changes.
+
 ## 7 November 2026 — Hero: one global issue
 
 - Hero headline "Six editions. One voice. Now Curaçao." replaced by "One issue. Six countries. One price."
