@@ -1,5 +1,9 @@
 # Between the Covers — Media Kit · Change Log
 
+## 7 November 2026 — New reader photo
+
+- Replaced the reader-section portrait with a new image (reader-at-home-1200.jpg): a Black woman in her fifties taking a quiet minute at her kitchen island with coffee and the Tracy Moore issue, with signs of a full life around her (closed laptop, keys, work tote, a child's drawing). Generated in Magnific (Nano Banana 2.1) using the real June 2026 cover as reference. Previous portrait files are kept but no longer used.
+
 ## 7 November 2026 — Authority numbers from Ahrefs and the app stores
 
 - Partnership section: added a proof strip with figures from Ahrefs Site Explorer (7 Nov 2026): 1,000+ linking websites (1,032; label "Websites now link to BTC"), 13x growth since February 2026 (78 to 1,032), BTC cited by five AI platforms (Google AI Overviews, Google AI Mode, ChatGPT, Perplexity, Copilot), and Wikipedia citing BTC interviews as a source.
